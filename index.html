@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Спортен сайт</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="mystyle.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <img src="images/logo.png" alt="logo">
+            <h1>Спортен Сайт</h1>
+        </div>
+    </header>
+    <nav>
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">Начало</a>
+            <div class="dropdown">
+                <button class="dropbtn">Спортове
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Лека атлетика</a>
+                    <a href="#">Плуване</a>
+                    <a href="#">Тенис на маса</a>
+                </div>
+            </div>
+            <a href="#news">Учебни игри</a>
+            <a href="#contact">Разпределения</a>
+
+    </nav>
+    <article>
+        <article class="article">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                leap into
+                electronic typesetting, remaining essentially unchanged.</p>
+            <img src="images/kartinka1.png" alt="Image" style="float: right; margin-left: 10px;" alt="Image" width="27%"
+                height="41%">
+        </article>
+    </article>
+
+    <footer>
+        <p
+            style="font-size:130%; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; letter-spacing: 0.5pt;">
+            Изготвено от:</p>
+        <dt style="font-size: 100%;"> Блага Й. Войнова</dt>
+        <dt style="font-size: 100%;"> Живомир Г. Михайлов</dt>
+        <p
+            style="font-size:130%; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; letter-spacing: 0.5pt;">
+            Контакти:</p>
+        <dt style="font-size: 100%;"> +089 746 9277</dt>
+    </footer>
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>
